@@ -50,8 +50,8 @@ class ksf_data_dictionary_ui extends origin_ui
 		$this->tabs[] = array( 'title' => 'Config Updated', 'action' => 'update', 'form' => 'checkprefs', 'hidden' => TRUE );
 
 		$this->tabs[] = array( 'title' => 'Configuration', 'action' => 'config', 'form' => 'action_show_form', 'hidden' => FALSE );
-		//$this->tabs[] = array( 'title' => 'Init Tables', 'action' => 'init_tables_form', 'form' => 'init_tables_form', 'hidden' => FALSE );
-		//$this->tabs[] = array( 'title' => 'Init Tables Completed', 'action' => 'init_tables_complete_form', 'form' => 'init_tables_complete_form', 'hidden' => TRUE );
+		$this->tabs[] = array( 'title' => 'Init Tables', 'action' => 'init_tables_form', 'form' => 'init_tables_form', 'hidden' => FALSE );
+		$this->tabs[] = array( 'title' => 'Init Tables Completed', 'action' => 'init_tables_complete_form', 'form' => 'init_tables_complete_form', 'hidden' => TRUE );
 	
 		//$this->tabs[] = array( 'title' => 'data_dictionary create', 'action' => 'create_data_dictionary_form', 'form' => 'create_data_dictionary_form', 'hidden' => FALSE );
 		//$this->tabs[] = array( 'title' => 'data_dictionary created', 'action' => 'created_data_dictionary_form', 'form' => 'created_data_dictionary_form', 'hidden' => TRUE );

@@ -26,10 +26,9 @@ class hooks_ksf_data_dictionary extends hooks {
 		switch($app->id) {
 			//case 'GL':
 			//case 'system':
-			//case 'stock':
 			//case 'AP':
 			//case 'orders':
-			case 'system':
+			case 'stock':
 				$app->add_rapp_function(2, _('ksf_data_dictionary'), 
 					$path_to_root.'/modules/ksf_data_dictionary/ksf_data_dictionary.php', 'SA_ksf_data_dictionary');
 		}
