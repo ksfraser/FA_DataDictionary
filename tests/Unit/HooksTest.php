@@ -6,21 +6,6 @@ namespace Ksfraser\FaDataDictionaryLegacy\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-// FrontAccounting provides a global translation helper. Stub it for unit tests.
-if (!function_exists('_')) {
-    function _(string $s): string
-    {
-        return $s;
-    }
-}
-
-// FrontAccounting provides a base hooks class. Stub it for unit tests.
-if (!class_exists('hooks')) {
-    class hooks
-    {
-    }
-}
-
 final class HooksTest extends TestCase
 {
     public function testInstallAccessReturnsAreasAndSections(): void
